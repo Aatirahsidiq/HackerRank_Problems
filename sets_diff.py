@@ -1,0 +1,6 @@
+n=int(input())
+french=set(input().split())
+m=int(input())
+eng=set(input().split())
+R = french.difference(eng)
+print(len(R))
